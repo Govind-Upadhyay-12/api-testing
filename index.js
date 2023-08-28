@@ -6,6 +6,12 @@ app.use("/", (req, res)=>{
     res.json({
         name: "Govind",
         age: 20
+    },{
+        name: "priya",
+        age: 20
+    },{
+        name: "hey",
+        age: 20,
     })
 });
 
