@@ -8,7 +8,7 @@ app.use("/", (req, res)=>{
         age: 20
     },{
         name: "priya",
-        age: 20
+        age: 19
     },{
         name: "hey",
         age: 20,
