@@ -3,7 +3,7 @@ const app = express();
 const port = 9000;
 
 app.use("/", (req, res)=>{
-    res.json({
+    res.json([{
         name: "Govind",
         age: 20
     },{
@@ -12,7 +12,7 @@ app.use("/", (req, res)=>{
     },{
         name: "hey",
         age: 20,
-    })
+    }])
 });
 
 app.listen(port, ()=>{
