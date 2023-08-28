@@ -4,7 +4,8 @@ const port = 9000;
 
 app.use("/", (req, res)=>{
     res.json({
-        message: "i think it is running"
+        name: "Govind",
+        age: 20
     })
 });
 
